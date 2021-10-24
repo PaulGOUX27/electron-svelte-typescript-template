@@ -15,7 +15,7 @@
     "node_modules",
     "dist/www",
     "out/**",
-    "src/frontend/**"
+    "src/app/**"
   ],
   "include": ["src/electron/**/*"]
 }

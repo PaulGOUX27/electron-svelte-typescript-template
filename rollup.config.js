@@ -31,7 +31,7 @@ function serve() {
 }
 
 export default {
-	input: 'src/frontend/main.ts',
+	input: 'src/app/main.ts',
 	output: {
 		sourcemap: true,
 		format: 'iife',
@@ -61,7 +61,7 @@ export default {
 		}),
 		commonjs(),
 		typescript({
-			tsconfig: "src/frontend/tsconfig.json",
+			tsconfig: "src/app/tsconfig.json",
 			sourceMap: !production,
 			inlineSources: !production
 		}),
