@@ -31,12 +31,12 @@ function serve() {
 }
 
 export default {
-	input: 'src/main.ts',
+	input: 'src/frontend/main.ts',
 	output: {
 		sourcemap: true,
 		format: 'iife',
 		name: 'app',
-		file: 'public/build/bundle.js'
+		file: 'dist/www/build/bundle.js'
 	},
 	plugins: [
 		svelte({
@@ -61,6 +61,7 @@ export default {
 		}),
 		commonjs(),
 		typescript({
+			tsconfig: "src/frontend/tsconfig.json",
 			sourceMap: !production,
 			inlineSources: !production
 		}),
