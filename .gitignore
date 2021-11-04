@@ -1,5 +1,5 @@
 /node_modules/
-/dist/www/build/
+/dist
 
 .idea
 .DS_Store
