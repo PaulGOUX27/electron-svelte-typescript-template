@@ -1,6 +1,6 @@
-# Git Notify
+# Electron / Svelte / Typescript template
 
-A small desktop app to be alerted by the notifications of your git repositories.
+Feel free to fork / copy from here ✨
 
 ## Get started
 
@@ -35,6 +35,6 @@ If you're building a single-page app (SPA) with multiple routes, sirv needs to b
 If you want to use `baseUrl` or `path` aliases within your `tsconfig`, you need to set up `@rollup/plugin-alias` to tell Rollup to resolve the aliases. For more info, see [this StackOverflow question](https://stackoverflow.com/questions/63427935/setup-tsconfig-path-in-svelte).
 
 
-## Ressources
+## Resources
 
-Project setup thanks to [this article](https://blog.stranianelli.com/svelte-et-electron-et-typescript-english/), thanks
+Project setup thanks to [this article](https://blog.stranianelli.com/svelte-et-electron-et-typescript-english/), thanks, and go see the related [repository](https://github.com/el3um4s/memento-svelte-electron-typescript).

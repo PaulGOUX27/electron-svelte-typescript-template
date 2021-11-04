@@ -1,5 +1,5 @@
 {
-  "name": "git-notify",
+  "name": "electron-svelte-typescript-template",
   "version": "0.0.1",
   "private": true,
   "main": "dist/index.js",
